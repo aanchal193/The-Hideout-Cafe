@@ -1,0 +1,268 @@
+body {
+    margin: 0;
+    font-family: 'Nunito';
+    background-color: white;
+    overflow-x: hidden;
+}
+
+.header {
+    padding: 0;
+    background-color: #EDCDBB;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0%;
+    z-index: 12;
+    height: 10%;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(to right, #FFEDDB, #BF9270);
+}
+
+.donuts {
+    margin-top: 20px;
+}
+
+.tabs {
+    display: flex;
+    flex-grow: .3;
+    justify-content: space-evenly;
+
+}
+
+.tabs1 {
+    display: flex;
+    flex-grow: .3;
+    justify-content: right;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-around;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.icons {
+    width: 170px;
+    height: 130px;
+}
+
+.phone {
+    width: 200px;
+    height: 200px;
+    margin-left: 180px;
+    top: 490px;
+}
+
+.phone img {
+    width: 30%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.phone img:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.address img {
+    width: 23%;
+    height: auto;
+    margin-top: 5px;
+}
+
+.address img:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.email img {
+    width: 30%;
+    height: auto;
+    margin-top: 10px;
+
+}
+
+.email img:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.email {
+    margin-right: 150px;
+}
+
+.tab {
+    font-family: 'Luxurious Roman';
+}
+
+.get {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 100;
+    font-size: 50px;
+    line-height: 54px;
+    text-align: center;
+    color: #1C0A00;
+}
+
+.phonetext {
+    margin-top: 2em;
+}
+
+
+
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #1C0A00;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #FBF8F1;
+    box-sizing: border-box;
+    top: 45em;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #1C0A00;
+}
+
+.footer-content h3 {
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #FBF8F1;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.socials a i {
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+}
+
+.socials a:hover i {
+    color: #E3B7A0;
+}
+
+.footer-bottom {
+    background: #361500;
+    width: 97.5vw;
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    float: left;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+.footer-menu {
+    float: right;
+}
+
+.footer-menu ul {
+    display: flex;
+}
+
+.footer-menu ul li {
+    padding-right: 10px;
+    display: block;
+}
+
+.footer-menu ul li a {
+    color: #FBF8F1;
+    text-decoration: none;
+}
+
+.footer-menu ul li a:hover {
+    color: #E3B7A0;
+}
+
+.main_list .icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .main_list a:not(:first-child) {
+        display: none;
+    }
+
+    .main_list a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .main_list.responsive {
+        position: relative;
+    }
+
+    .main_list.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .main_list.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}

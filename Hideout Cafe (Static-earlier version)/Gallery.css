@@ -1,0 +1,24 @@
+body{
+	background-color: #F7ECDE;
+}
+.gallery {
+	display: flex;
+	padding: 2px;
+}
+		
+.gallery__column {
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+}
+			
+.gallery__image {
+	display: block;
+	width: 100%;
+    position: relative;
+	border-radius: 5px;
+}	
+
+.gallery__image:hover {
+    transform: scale(1.1);
+  }

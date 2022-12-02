@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: 'Nunito';
+    background-color: white;
+}
+
+.header {
+    padding: 0;
+    background-color: #EDCDBB;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0%;
+    z-index: 12;
+    height: 10%;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(to right, #FFEDDB, #BF9270);
+}
+
+.donuts {
+    margin-top: 20px;
+}
+
+.tabs {
+    display: flex;
+    flex-grow: .3;
+    justify-content: space-evenly;
+
+}
+
+.tabs1 {
+    display: flex;
+    flex-grow: .3;
+    justify-content: right;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-around;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.icons {
+    width: 170px;
+    height: 130px;
+}
+
+.phone {
+    width: 200px;
+    height: 200px;
+    margin-left: 180px;
+    top: 490px;
+}
+
+.phone img {
+    width: 30%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.phone img:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.address img {
+    width: 23%;
+    height: auto;
+    margin-top: 5px;
+}
+
+.address img:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.email img {
+    width: 30%;
+    height: auto;
+    margin-top: 10px;
+
+}
+
+.email img:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.email {
+    margin-right: 150px;
+}
+
+.tab {
+    font-family: 'Luxurious Roman';
+}
+
+.get {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 100;
+    font-size: 50px;
+    line-height: 54px;
+    text-align: center;
+    color: #1C0A00;
+}
+
+.phonetext {
+    margin-top: 2em;
+}

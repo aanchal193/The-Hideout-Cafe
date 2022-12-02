@@ -1,0 +1,111 @@
+body{
+    background-color: #F7ECDE;
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+}
+
+.left
+{
+    display: inline-block;
+    width:70px;
+    height: 90px;
+}
+
+.left h1
+{
+    position: relative;
+    font-family: 'Luxurious Roman';
+    font-size:30px;
+    text-align:center;
+    border-top:2px solid #4a3f17;
+    border-bottom:2px solid #4a3f17;
+    padding:10px 0px;
+    width:350px;
+    top:70px;
+    left: 9em;
+}
+
+.details input
+{
+    position: relative;
+    font-size: 15px;
+    top:100px;
+    left:80px;
+    width:695px;
+    height: 40px;
+    border-radius: 5px;
+    margin:6px;
+    border: 2.3px solid black;
+}
+
+.details #date
+{
+    display: inline-block;
+    width:335px;
+}
+
+.details #time
+{
+    display: inline-block;
+    position: relative;
+    width:335px;
+    left:445px;
+    top:44px;
+}
+
+.details #date::before
+{
+    content:'Date:';
+    margin-right:.6em;
+    color:#747272;
+}
+
+.details #time::before
+{
+    content:'Time Slot:';
+    margin-right:.6em;
+    color:#747272;
+}
+
+.right
+{
+    display: inline-block;
+    position:absolute;
+    margin-left: 53em;
+    width: 100%;
+    height: 100%;
+}
+
+.details #freeform
+{
+    position: relative;
+    left:85px;
+    top:53px;
+    width:700px;
+    height: 70px;
+    color:#0e0d0d;
+    font-size: 15px;
+    border: 2.3px solid black;
+    border-radius: 5px;
+}
+
+.reservation{
+box-sizing: border-box;
+width: 25em;
+height: 2.5em;
+background: black;
+color: #FAC50C;
+font-size: 20px;
+border: 1px solid #FAC50C;
+border-radius: 10px;
+margin-top: 4.5em;
+margin-left: 9em;
+cursor: pointer;
+}
+
+.reservation:hover {
+background-color:  #1C0A00;
+color: #F7ECDE;
+font-weight: 600;
+}
